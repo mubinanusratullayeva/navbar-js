@@ -1,0 +1,23 @@
+@media (max-width:722px) {
+    .navbar__menu {
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 74px;
+        padding: 29px;
+        height: 83vh;
+        min-width: 100%;
+        row-gap: 30px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .navbar__menu-item--link {
+        font-size: medium;
+    }
+    .navbar__open {
+        display: block;
+    }
+    .menuNavbar {
+        left: 0;
+    }
+}
